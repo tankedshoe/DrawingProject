@@ -11,7 +11,6 @@ import javax.swing.*;
 
 import art.controller.*;
 
-
 public class ShapeCanvas extends JPanel
 {
 	private ArrayList<Polygon> triangleList;
@@ -19,5 +18,47 @@ public class ShapeCanvas extends JPanel
 	private ArrayList<Ellipse2D> ellipseList;
 	private ArrayList<Rectangle> rectangleList;
 	private ArtController app;
+	
+	private BufferedImage canvasImage;
+	
+	public ShapeCanvas(ArtController app)
+	{
+		
+	}
+	
+	public void addShape(Shape current)
+	{
+		
+	}
+	
+	public void clear()
+	{
+		
+	}
+	
+	public void changeBackground()
+	{
+		
+	}
+	
+	public void save()
+	{
+		
+	}
+	
+	public Color randomColor()
+	{
+		return null;
+	}
+	
+	public void updateImage()
+	{
+		
+	}
+	
+	public void paintComponent(Graphics graphics)
+	{
+		
+	}
 }
 
